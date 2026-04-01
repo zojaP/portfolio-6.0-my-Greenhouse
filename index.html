@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Greenhouse</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg"> 
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__row">
+                <div class="nav__logo">
+                    <div class="logo">Greenhouse</div> 
+                </div>
+                <div class="nav__list">
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a class="nav-list__link nav-list__link--active" href="#!">Home</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#!">Services</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#!">Products</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#!">Contact</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#!">Location</a></li>
+                    </ul>
+                </div>
+                <div class="nav__signin">
+                    <ul class="nav-signin">
+                        <li class="nav-signin__item"><a class="nav-signin__link" href="#!">Sign In</a></li>
+                        <li class="nav-signin__item"><a class="nav-signin__btn" href="#!">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+
+        <img src="./img/header/header-picture.jpg" alt="foto house" class="header__img">
+        <img src="./img/april1.jpg" class="foto-april1 none" alt="foto april1">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__desc">FIND YOUR BEST HOUSE</div>
+                <h1 class="header__title">Buy And Sell Your Property Without Commisions</h1>
+                <div class="thanksWebCademy">
+                    <a href="https://webcademy.ru/blog/902/" target="_blank" class="btn--thanksWebCademy">portfolio 6.0 with thanks to WebCademy</a>
+                </div> 
+                <div class="header__text">
+                    <p>Solar is a clean and safe energy source that converts sunlight into electricity for homes and businesses.</p>
+                </div>
+            </div>
+            <div class="header__form">
+                <form class="form">
+                    <!-- <select name="Location" class="visible">
+                        <option value="Japan, Tokyo">Japan, Tokyo</option>
+                        <option value="Russia, Moscow">Russia, Moscow</option>
+                        <option value="Italy, Catania" selected>Italy, Catania</option>
+                        <option value="Ukraine, Kiev">Ukraine, Kiev</option>
+                        <option value="Belarus, Minsk">Belarus, Minsk</option>
+                    </select> -->
+                    <div class="select" id="select-location">
+                        <div class="select__title">Location</div>
+                        <div class="select__value">Italy, Catania</div>
+                        <ul class="select__list">
+                            <li class="select__list-item">Japan, Tokyo</li> 
+                            <li class="select__list-item">Russia, Moscow</li>
+                            <li class="select__list-item select__list-item--active">Italy, Catania</li> 
+                            <li class="select__list-item">Ukraine, Kiev</li> 
+                        </ul>
+                    </div>
+                    <!-- <select name="Property" class="visible">
+                        <option value="Duplex" selected>Duplex</option>
+                        <option value="Semi-detached">Semi-detached</option>
+                        <option value="Townhouse">Townhouse</option>
+                    </select> -->
+                    <div class="select" id="select-property">
+                        <div class="select__title">Property Type</div>
+                        <div class="select__value" id="value-property">Duplex</div>
+                        <ul class="select__list" id="property-list">
+                            <li class="select__list-item select__list-item--active">Duplex</li> 
+                            <li class="select__list-item">Semi-detached</li> 
+                            <li class="select__list-item">Townhouse</li>
+                        </ul>
+                    </div> 
+                    <!-- <select name="Price" class="visible">
+                        <option value="$200.000">$200.000</option>
+                        <option value="$300.000">$300.000</option>
+                        <option value="$100.000">$100.000</option>
+                        <option value="$125.000" selected>$125.000</option>
+                    </select> -->
+                    <div class="select" id="select-price"> 
+                        <div class="select__title">Max Price</div>
+                        <div class="select__value">$125.000</div>
+                        <ul class="select__list">
+                                <li class="select__list-item">$200.000</li> 
+                                <li class="select__list-item ">$300.000</li> 
+                                <li class="select__list-item">$100.000</li>
+                                <li class="select__list-item select__list-item--active">$125.000</li>
+                        </ul>
+                    </div> 
+                    <button class="btn-search">Find House</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="partners">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__header-desc">Our partners</div>
+                <h2 class="section__header-title">Trusted by 100+ Company</h2>
+                <p class="section__header-text">We have worked with several large companies</p>
+            </div>
+            <div class="partners__logos">
+                <img src="./img/partners/visa.svg" alt="logovisal">
+                <img src="./img/partners/paypal.svg" alt="logo paypal">
+                <img src="./img/partners/jenius.svg" alt="logo jenius">
+                <img src="./img/partners/mastercard.svg" alt="logo mastercard">
+                <img src="./img/partners/bca.svg" alt="logo bca">
+                <img src="./img/partners/payoneer.svg" alt="logo payoneer">
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="section__header">
+                <div class="section__header-desc">Best services</div>
+                <h2 class="section__header-title">Why Choose Us?</h2>
+                <p class="section__header-text">Several modules that can be used separately or together to adapt to your reality</p>  
+            </div>
+            <div class="services__cards">
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="./img/icons/icon-01.svg" alt="icon-01">
+                    </div>
+                    <h3 class="card__title">Very Responsiveness</h3>
+                    <p class="card__text">
+                        Are known for our proven ability to maintain open communication around the clock and a high level.
+                    </p>
+                    <a href="#!" class="card__link">Learn More</a>
+                </div>
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="./img/icons/icon-02.svg" alt="icon-02">
+                    </div>
+                    <h3 class="card__title">Buying Strategies</h3>
+                    <p class="card__text">
+                        We use modern technology along with our market knowledge, unsurpassed negotiation and sales skills.
+                    </p>
+                    <a href="#!" class="card__link">Learn More</a>
+                </div>
+                <div class="card">
+                    <div class="card__icon">
+                        <img src="./img/icons/icon-03.svg" alt="icon-03">
+                    </div>
+                    <h3 class="card__title">Proven Results</h3>
+                    <p class="card__text">
+                        Over the past years our brokers and agents have worked with reputable brokerage firms, including, Coldwell.
+                    </p>
+                    <a href="#!" class="card__link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="subscribe__content">
+                <h3 class="subscribe__title">Subscribe to our Newsletter</h3>
+                <p class="subscribe__text">Solar is a clean and safe energy source that converts <br/>sunlight into electricity for homes and businesses.</p>
+                <form class="subscribe__form"  type="email">
+                    <input class="subscribe__email" id="placeholder" placeholder="Enter your email address" type="email"></input>
+                    <button class="subscribe__btn" type="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+      
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper-logo">
+                    <div class="footer-logo">Greenhouse</div>
+                    <div class="footer__wrapper-text">Full-service real estate experts who strive to service the entire spectrum of exclusive clients Los Angeles has to offer.</div>
+                    <ul class="footer__wrapper-social">
+                        <a href="#!"><img class="social" src="./img/footer/Facebook.svg" alt="icon foto"></a>
+                        <a href="#!"><img class="social" src="./img/footer/Instagram.svg" alt="icon foto"></a>
+                        <a href="#!"><img class="social" src="./img/footer/Twitter.svg" alt="icon foto"></a>
+                        <a href="#!"><img class="social" src="./img/footer/Youtube.svg" alt="icon foto"></a>
+                    </ul>
+                </div>
+                <div class="footer__wrapper-list">
+                    <h4 class="footer-title">Links</h4>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#!">Home</a></li>
+                        <li class="footer-list__item"><a href="#!">Services</a></li>
+                        <li class="footer-list__item"><a href="#!">About</a></li>
+                        <li class="footer-list__item"><a href="#!">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer__wrapper-list">
+                    <h4 class="footer-title"> About</h4>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#!">Partners</a></li>
+                        <li class="footer-list__item"><a href="#!">Careers</a></li>
+                        <li class="footer-list__item"><a href="#!">Press</a></li>
+                        <li class="footer-list__item"><a href="#!">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer__wrapper-office">
+                    <h4 class="footer-title">Our Office</h4>
+                    <ul class="office-list">
+                        <p class="office-list__item">Indonesia<br/>Jl. Griya Permata Hijau no D1<br/>Purwomartani Kalasan 543881</p>
+                        <p class="office-list__item">Tokyo<br/>35 Mandalay Road 13–37<br/>Mandalay Towers Singapore 308215</p>
+                    </ul>
+                </div>  
+            </div>
+            <div class="footer__copyright">
+                <p>© 2021 GreenHouse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
