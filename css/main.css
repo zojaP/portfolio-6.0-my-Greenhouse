@@ -242,9 +242,8 @@ a.btn--thanksWebCademy {
 }
 
 .btn-search:hover {
-    border: 1px solid var(--accent-color);
-    background-color: var(--white-color);
     color: var(--accent-color);
+    background: #de3e0d1a;
 }
 
 .select__list {
@@ -423,9 +422,9 @@ a.btn--thanksWebCademy {
     padding: 8px 8px;
     width: 587px;
     display: flex;
+    gap: 25px;
     justify-content: space-between;
     border: 1px solid #d4cbc4;
-    ;
     border-radius: 100px;
 }
 
@@ -440,12 +439,16 @@ a.btn--thanksWebCademy {
     background-image: url("./../img/icons/sms.svg");
 }
 
-
 .subscribe__email {
     padding-left: 64px;
     font-weight: 400;
     font-size: 16px;
     color: #8b7563;
+}
+
+input {
+    outline: none;
+    width: 100%;
 }
 
 .subscribe__btn {
@@ -460,9 +463,8 @@ a.btn--thanksWebCademy {
 }
 
 .subscribe__btn:hover {
-    border: 1px solid var(--accent-color);
-    background-color: var(--white-color);
     color: var(--accent-color);
+    background: #de3e0d1a;
 }
 
 /* Footer */
