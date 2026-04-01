@@ -1,4 +1,5 @@
 // id="select-location
+
 const selectLocation = document.querySelector("#select-location");
 
 selectLocation.addEventListener("click", function () {
@@ -19,7 +20,17 @@ listItems.forEach(function (listItem) {
     });
 });
 
+document.addEventListener("click", function (event) {
+    event.stopPropagation();
+    if (event.target !== selectLocation) {
+        selectLocation
+            .querySelector(".select__list")
+            .classList.remove("select__list--visible");
+    }
+});
+
 // id = "select-property";
+
 const selectProperty = document.querySelector("#select-property");
 selectProperty.addEventListener("click", function () {
     const selectList = selectProperty.querySelector(".select__list");
@@ -38,7 +49,17 @@ listItems.forEach(function (listItem) {
     });
 } );
 
+document.addEventListener("click", function (event) {
+    event.stopPropagation();
+    if (event.target !== selectProperty) {
+        selectProperty
+            .querySelector(".select__list")
+            .classList.remove("select__list--visible");
+    }
+});
+
 // id="select-price"
+
 const selectPrice = document.querySelector("#select-price");
 
 selectPrice.addEventListener("click", function () {
@@ -59,6 +80,14 @@ listItems.forEach(function (listItem) {
     });
 });
 
+document.addEventListener("click", function (event) {
+    event.stopPropagation();
+    if (event.target !== selectPrice) {
+        selectPrice.querySelector(".select__list").classList.remove("select__list--visible");
+    }
+});
+
+// 1April
 
 const buttonApril = document.querySelector(".thanksWebCademy");
 buttonApril.addEventListener( "click", function () {
