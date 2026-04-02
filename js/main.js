@@ -86,11 +86,3 @@ document.addEventListener("click", function (event) {
         selectPrice.querySelector(".select__list").classList.remove("select__list--visible");
     }
 });
-
-// 1April
-
-const buttonApril = document.querySelector(".thanksWebCademy");
-buttonApril.addEventListener( "click", function () {
-    document.querySelector(".header__img").classList.add("none");
-    document.querySelector(".foto-april1").classList.remove("none");
-})
