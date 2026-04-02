@@ -124,19 +124,6 @@ a.btn--thanksWebCademy {
     object-fit: cover;
 }
 
-.foto-april1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.april1 a:hover {
-    background-color: #de3e0d;
-}
-
 .header__desc {
     position: relative;
     margin-bottom: 25px;
